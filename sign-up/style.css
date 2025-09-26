@@ -1,0 +1,53 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #e51e1e, #fbc78f);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+/* Container */
+.signup-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+/* Card Styling */
+.signup-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  padding: 25px;
+}
+
+/* Headings */
+.signup-card h2 {
+  font-weight: bold;
+  color:#e51e1e;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #f80303;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c92222;
+}
+
+/* Links */
+a {
+  color: #ff0404;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
